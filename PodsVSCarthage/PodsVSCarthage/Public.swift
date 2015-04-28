@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ExternalDetail{
+public class ExternalDetail:NSObject{
     public class var publicDetail:String{
         get{
             return InternalDetails.detail
